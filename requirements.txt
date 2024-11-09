@@ -1,7 +1,6 @@
 joblib
 numpy
 flask
-sklearn
 scikit-learn 
 scipy 
 matplotlib
