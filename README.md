@@ -34,7 +34,7 @@ For model and modeling, the first step was data preprocessing which includes out
 	<pre> cd backend/server  </pre>
 4. Run the following command
     <pre> python server.py</pre>
-5. open app.html page in default browser
+
 
 ## Demo Video 
 <p align="center"> <img src="https://github.com/BhargavNaga/realestate_price_prediction/blob/main/demo.gif" alt="animated" /> </p>
