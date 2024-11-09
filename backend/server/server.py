@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify , render_template
 import util
 app = Flask(__name__)
@@ -35,4 +36,5 @@ def predict_home_price():
 if __name__ == "__main__":
     print("server starting >>")
     util.load_saved_artifacts()
-    app.run()
+    port = int(os.environ.get("PORT", 10000))  # Set default to 10000
+    app.run(host='0.0.0.0', port=port)
